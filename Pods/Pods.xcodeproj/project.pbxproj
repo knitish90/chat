@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08469A685FC8F53B9C8E01A1D169A650 /* Pods-Chatapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF65C459678CCB31DA81DC17D3B0031 /* Pods-Chatapp-dummy.m */; };
+		935837C71F0F71BA8A648B424FD5FCB5 /* Pods-Chatapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0846AB2DD07A56CFB93B461E51AFBB /* Pods-Chatapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F345D7457200D4D0C686DD68AC56B5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04E372CE50761B8F9D64A0888A5C9420 /* dtmf_5.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_5.wav; path = Resources/dtmf_5.wav; sourceTree = "<group>"; };
+		0E160312780BDDFA92351B0099E2031E /* libTwilioClient.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTwilioClient.a; path = Libraries/libTwilioClient.a; sourceTree = "<group>"; };
+		23AF943126F9A797BCFFB2F095C61D07 /* dtmf_2.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_2.wav; path = Resources/dtmf_2.wav; sourceTree = "<group>"; };
+		27856E98CC5B0917EDD04DBB7363D493 /* Pods_Chatapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F208465CE1728BEC127A7E4A27BE96 /* Pods-Chatapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Chatapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		3809B43CA8F28C383487E698DD0841F3 /* dtmf_7.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_7.wav; path = Resources/dtmf_7.wav; sourceTree = "<group>"; };
+		5C0846AB2DD07A56CFB93B461E51AFBB /* Pods-Chatapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Chatapp-umbrella.h"; sourceTree = "<group>"; };
+		6B14213E0ED29F538371FC0F920A010A /* TCConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCConnection.h; path = Headers/TCConnection.h; sourceTree = "<group>"; };
+		6CF65C459678CCB31DA81DC17D3B0031 /* Pods-Chatapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Chatapp-dummy.m"; sourceTree = "<group>"; };
+		6DE11AD59FA9A53E8055B8B3DC89564B /* incoming.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = incoming.wav; path = Resources/incoming.wav; sourceTree = "<group>"; };
+		6F93FECC773BB054612FC825FFC2029F /* TCDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCDevice.h; path = Headers/TCDevice.h; sourceTree = "<group>"; };
+		71E96D5B00004703A776FCDC64FBAA72 /* Pods-Chatapp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chatapp-resources.sh"; sourceTree = "<group>"; };
+		86479D40B357B36A181713F7B9AC8C28 /* dtmf_hash.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_hash.wav; path = Resources/dtmf_hash.wav; sourceTree = "<group>"; };
+		90CB4B499791AB4FF9D9877D20788FE2 /* dtmf_9.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_9.wav; path = Resources/dtmf_9.wav; sourceTree = "<group>"; };
+		91A8CE68F62DF199FC6EEBFFF48DDC9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938F75ABFDCF0BDC412729F294C1E4D6 /* dtmf_star.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_star.wav; path = Resources/dtmf_star.wav; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		990B5B7345EFC2BC49E1182B22A33CA3 /* TwilioClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TwilioClient.h; path = Headers/TwilioClient.h; sourceTree = "<group>"; };
+		A22A0FB660623D6A393038FE727AA1C2 /* TCConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCConnectionDelegate.h; path = Headers/TCConnectionDelegate.h; sourceTree = "<group>"; };
+		A9393BC3DE9B50CD2D0BA2F9A7AD1E60 /* Pods-Chatapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Chatapp.modulemap"; sourceTree = "<group>"; };
+		B4A3690902911C3F2A49B076DD056C11 /* outgoing.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = outgoing.wav; path = Resources/outgoing.wav; sourceTree = "<group>"; };
+		B68FF17F95E57A04903A3D4E90DBCB12 /* TCPresenceEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCPresenceEvent.h; path = Headers/TCPresenceEvent.h; sourceTree = "<group>"; };
+		BDDAF4FE0B6D401348F387F21E85F835 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = Libraries/libcrypto.a; sourceTree = "<group>"; };
+		C1F9F02A64F039E1D0B8EC6217D2EA60 /* TCDeviceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCDeviceDelegate.h; path = Headers/TCDeviceDelegate.h; sourceTree = "<group>"; };
+		CEBA1C568779A0103EC7BFECD83129D8 /* dtmf_4.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_4.wav; path = Resources/dtmf_4.wav; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD3A9CC9814665DBCEAC6153C0755AD0 /* dtmf_6.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_6.wav; path = Resources/dtmf_6.wav; sourceTree = "<group>"; };
+		DF2E2D18B1D79707FBAAA11E9A01A985 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = Libraries/libssl.a; sourceTree = "<group>"; };
+		E153C9AC73200710C6BDAF76F95E8F3E /* dtmf_3.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_3.wav; path = Resources/dtmf_3.wav; sourceTree = "<group>"; };
+		EF3B7D74128725C12B036028D5AC8CD3 /* Pods-Chatapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chatapp.release.xcconfig"; sourceTree = "<group>"; };
+		F0503C14B3B55BADAF8B6C26F57A2AD0 /* dtmf_0.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_0.wav; path = Resources/dtmf_0.wav; sourceTree = "<group>"; };
+		F269BEA776E281E4D2C76923F350821A /* Pods-Chatapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chatapp.debug.xcconfig"; sourceTree = "<group>"; };
+		F4868B878F55B811B1CC319969337596 /* Pods-Chatapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chatapp-frameworks.sh"; sourceTree = "<group>"; };
+		F6ED4FF7B8E99E410C83F8D8F832F5C4 /* Pods-Chatapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Chatapp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8BCC35FEB03C17BBDCA714C0CA92518 /* dtmf_8.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_8.wav; path = Resources/dtmf_8.wav; sourceTree = "<group>"; };
+		FA862F42582A1B8402697F7EC58391CA /* disconnect.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = disconnect.wav; path = Resources/disconnect.wav; sourceTree = "<group>"; };
+		FD069B433EE747EDBB86C1FF340FA09D /* dtmf_1.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_1.wav; path = Resources/dtmf_1.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09CF182C3476F44C8C1B8A82EF7166AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F345D7457200D4D0C686DD68AC56B5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F082EC7E41DBAA183CFD60CBEFE207B4 /* Pods */,
+				A6A146BBD29EC1B9127F0FF2EBBABC32 /* Products */,
+				AFFA88ABD2DE03AEDC2E00EF5C6F45CA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B999D77F5A926EDDD1128D798236D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA862F42582A1B8402697F7EC58391CA /* disconnect.wav */,
+				F0503C14B3B55BADAF8B6C26F57A2AD0 /* dtmf_0.wav */,
+				FD069B433EE747EDBB86C1FF340FA09D /* dtmf_1.wav */,
+				23AF943126F9A797BCFFB2F095C61D07 /* dtmf_2.wav */,
+				E153C9AC73200710C6BDAF76F95E8F3E /* dtmf_3.wav */,
+				CEBA1C568779A0103EC7BFECD83129D8 /* dtmf_4.wav */,
+				04E372CE50761B8F9D64A0888A5C9420 /* dtmf_5.wav */,
+				DD3A9CC9814665DBCEAC6153C0755AD0 /* dtmf_6.wav */,
+				3809B43CA8F28C383487E698DD0841F3 /* dtmf_7.wav */,
+				F8BCC35FEB03C17BBDCA714C0CA92518 /* dtmf_8.wav */,
+				90CB4B499791AB4FF9D9877D20788FE2 /* dtmf_9.wav */,
+				86479D40B357B36A181713F7B9AC8C28 /* dtmf_hash.wav */,
+				938F75ABFDCF0BDC412729F294C1E4D6 /* dtmf_star.wav */,
+				6DE11AD59FA9A53E8055B8B3DC89564B /* incoming.wav */,
+				B4A3690902911C3F2A49B076DD056C11 /* outgoing.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A6A146BBD29EC1B9127F0FF2EBBABC32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27856E98CC5B0917EDD04DBB7363D493 /* Pods_Chatapp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFFA88ABD2DE03AEDC2E00EF5C6F45CA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA99781441FDC9F240A178FDA9BD4D29 /* Pods-Chatapp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CABAA6B49344E510EBC3EA913CE6BA7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDDAF4FE0B6D401348F387F21E85F835 /* libcrypto.a */,
+				DF2E2D18B1D79707FBAAA11E9A01A985 /* libssl.a */,
+				0E160312780BDDFA92351B0099E2031E /* libTwilioClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F082EC7E41DBAA183CFD60CBEFE207B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8956BADAF1DBBD6E3C9B3CD38F48ED0 /* TwilioSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8956BADAF1DBBD6E3C9B3CD38F48ED0 /* TwilioSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6B14213E0ED29F538371FC0F920A010A /* TCConnection.h */,
+				A22A0FB660623D6A393038FE727AA1C2 /* TCConnectionDelegate.h */,
+				6F93FECC773BB054612FC825FFC2029F /* TCDevice.h */,
+				C1F9F02A64F039E1D0B8EC6217D2EA60 /* TCDeviceDelegate.h */,
+				B68FF17F95E57A04903A3D4E90DBCB12 /* TCPresenceEvent.h */,
+				990B5B7345EFC2BC49E1182B22A33CA3 /* TwilioClient.h */,
+				CABAA6B49344E510EBC3EA913CE6BA7B /* Frameworks */,
+				A3B999D77F5A926EDDD1128D798236D2 /* Resources */,
+			);
+			path = TwilioSDK;
+			sourceTree = "<group>";
+		};
+		FA99781441FDC9F240A178FDA9BD4D29 /* Pods-Chatapp */ = {
+			isa = PBXGroup;
+			children = (
+				91A8CE68F62DF199FC6EEBFFF48DDC9A /* Info.plist */,
+				A9393BC3DE9B50CD2D0BA2F9A7AD1E60 /* Pods-Chatapp.modulemap */,
+				F6ED4FF7B8E99E410C83F8D8F832F5C4 /* Pods-Chatapp-acknowledgements.markdown */,
+				34F208465CE1728BEC127A7E4A27BE96 /* Pods-Chatapp-acknowledgements.plist */,
+				6CF65C459678CCB31DA81DC17D3B0031 /* Pods-Chatapp-dummy.m */,
+				F4868B878F55B811B1CC319969337596 /* Pods-Chatapp-frameworks.sh */,
+				71E96D5B00004703A776FCDC64FBAA72 /* Pods-Chatapp-resources.sh */,
+				5C0846AB2DD07A56CFB93B461E51AFBB /* Pods-Chatapp-umbrella.h */,
+				F269BEA776E281E4D2C76923F350821A /* Pods-Chatapp.debug.xcconfig */,
+				EF3B7D74128725C12B036028D5AC8CD3 /* Pods-Chatapp.release.xcconfig */,
+			);
+			name = "Pods-Chatapp";
+			path = "Target Support Files/Pods-Chatapp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9B78406CC522A119DD657FD933E1D6EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935837C71F0F71BA8A648B424FD5FCB5 /* Pods-Chatapp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AFF29A4A896C20353881557338AC3B65 /* Pods-Chatapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0C15B222E72AFA08B12E748BB11F33 /* Build configuration list for PBXNativeTarget "Pods-Chatapp" */;
+			buildPhases = (
+				E59A1408376F82E9B8B0530C26ADFE6C /* Sources */,
+				09CF182C3476F44C8C1B8A82EF7166AF /* Frameworks */,
+				9B78406CC522A119DD657FD933E1D6EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Chatapp";
+			productName = "Pods-Chatapp";
+			productReference = 27856E98CC5B0917EDD04DBB7363D493 /* Pods_Chatapp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A6A146BBD29EC1B9127F0FF2EBBABC32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF29A4A896C20353881557338AC3B65 /* Pods-Chatapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E59A1408376F82E9B8B0530C26ADFE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08469A685FC8F53B9C8E01A1D169A650 /* Pods-Chatapp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		177CA85B4CFE1EC9CB1C9D87E39D4E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3B7D74128725C12B036028D5AC8CD3 /* Pods-Chatapp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Chatapp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Chatapp/Pods-Chatapp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Chatapp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B6F22E43CDDAF006A5DEEEEC9D46E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F269BEA776E281E4D2C76923F350821A /* Pods-Chatapp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Chatapp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Chatapp/Pods-Chatapp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Chatapp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0C15B222E72AFA08B12E748BB11F33 /* Build configuration list for PBXNativeTarget "Pods-Chatapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6F22E43CDDAF006A5DEEEEC9D46E8E /* Debug */,
+				177CA85B4CFE1EC9CB1C9D87E39D4E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
